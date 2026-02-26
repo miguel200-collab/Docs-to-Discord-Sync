@@ -23,10 +23,11 @@ This project uses a lightweight, serverless architecture to move data from Googl
 * **Auto-Formatting:** Automatically alphabetizes staff names and lists their available times clearly.
 
 ## 📸 Screenshots
-* ![Google Doc Table](discord message.jpg)
+* **Google Doc Table:**
+  ![Google Doc Table](googletable.jpg)
 
-* Discord Message:
-![Discord Message](doc tablr ss.jpg)
+* **Discord Master Message:**
+  ![Discord Message](discordmessage.jpg)
 
 ## 🚀 Setup Instructions
 
