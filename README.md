@@ -6,7 +6,7 @@ Google Apps Script to automatically send Google Doc table changes to a Discord W
 A serverless integration that automatically synchronizes a schedule from a Google Doc table directly to a Discord server. 
 
 ## 🎯 The Goal
-MakerLAB needed an automated way to communicate changing Office Hours to students on Discord. This project turnins a standard Google Doc table into a data source that feeds directly into Discord.
+MakerLAB needed an automated way to communicate changing Office Hours to students on Discord. This project turns a standard Google Doc table into a data source that feeds directly into Discord.
 
 ## 🏗️ System Architecture
 This project uses a lightweight, serverless architecture to move data from Google to Discord:
