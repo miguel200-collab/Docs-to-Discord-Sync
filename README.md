@@ -23,11 +23,10 @@ This project uses a lightweight, serverless architecture to move data from Googl
 * **Auto-Formatting:** Automatically alphabetizes staff names and lists their available times clearly.
 
 ## 📸 Screenshots
-* Google Doc Table Setup:
-
+* ![Google Doc Table](discord message.jpg)
 
 * Discord Message:
-
+![Discord Message](doc tablr ss.jpg)
 
 ## 🚀 Setup Instructions
 
@@ -45,7 +44,7 @@ This project uses a lightweight, serverless architecture to move data from Googl
 ### 3. Apps Script Installation
 1. In your Google Doc, go to **Extensions > Apps Script**.
 2. Delete any existing code and paste the contents of `Code.js` from this repository.
-3. Replace `"YOUR_DISCORD_WEBHOOK_URL_HERE"` at the top of the script with your actual webhook URL.
+3. Replace `"Discord_Webhook_Here"` at the top of the script with your actual webhook URL.
 4. Save the project.
 
 ### 4. Initialization & Triggers
