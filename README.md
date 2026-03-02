@@ -61,7 +61,7 @@ This project uses a lightweight, serverless architecture to move data from Googl
 
 ## Setup Video
 
-<video src="./GoogleDoc-To-Discord.mp4" controls></video>
+[Watch the Setup Video](https://github.com/miguel200-collab/Docs-to-Discord-Sync/raw/main/GoogleDoc-To-Discord.mp4)
 
 ## ⚠️ Best Practices & Limitations
 * **The Dedicated Document Rule:** This script is programmed to read the *very first table* it finds in the document (`tables[0]`). To prevent the script from breaking, **do not add other tables above the schedule**. It is highly recommended to use a standalone Google Doc solely for this schedule to avoid accidental formatting errors from other collaborators.
