@@ -59,6 +59,10 @@ This project uses a lightweight, serverless architecture to move data from Googl
 1. **Set the Baseline:** Run the `checkTableUpdates` function manually one time in the Apps Script editor. You will need to accept Google's authorization prompts. This saves the initial state of the table and generates the first master message in Discord.
 2. **Automate It:** Click the **Triggers** icon (alarm clock) on the left menu. Add a new trigger to run `checkTableUpdates` as a **Time-driven** event, checking every **15 or 30 minutes**.
 
+## Setup Video
+
+<video src="./GoogleDoc-To-Discord.mp4" controls></video>
+
 ## ⚠️ Best Practices & Limitations
 * **The Dedicated Document Rule:** This script is programmed to read the *very first table* it finds in the document (`tables[0]`). To prevent the script from breaking, **do not add other tables above the schedule**. It is highly recommended to use a standalone Google Doc solely for this schedule to avoid accidental formatting errors from other collaborators.
 * **Text and Images:** Paragraphs, titles, and images placed above or below the table are completely ignored by the script and will not cause any issues.
